@@ -4,8 +4,8 @@ Starting with a bigram model all the way to GPT, training an AI to predict the n
 
 ## Projects
 
-- [./bigram/README.md](Bigram Language Model)
-- [./mlp/README.md](Multi-layer Neural Network)
+- [Bigram Language Model](./bigram/README.md)
+- [Multi-layer Neural Network](./mlp/README.md)
 
 ## Getting started
 
