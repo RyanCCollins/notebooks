@@ -11,7 +11,11 @@ Starting with a bigram model all the way to GPT, training an AI to predict the n
 
 1. Install python v3+
 1. Install miniconda
-1. Install jupyter lab
-1. Install munpy, scipi, matplotlib, pytorch
+1. Create a conda env `conda create -n makemore python=3.8 --file spec-file.txt`
 
-Run: `jupyter lab`
+- To use the spec file to install its listed packages into an existing environment: `conda install --name myenv --file spec-file.txt`
+
+1. Activate the conda env `conda activate makemore`
+1. See the [Conda docs](https://github.com/conda/conda/blob/main/docs/source/user-guide/tasks/manage-environments.rst#building-identical-conda-environments) for helo
+
+Run: `jupyter lab` once the conda env is activated.
